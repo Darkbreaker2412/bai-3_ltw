@@ -14,7 +14,7 @@ export default function AboutUs() {
       </ul>
       <h2 className="section-title">Công nghệ</h2>
       <p>ReactJS, Vite, React Router, Axios, ASP.NET Core, Entity Framework Core.</p>
-      <h2 className="section-title">Thành viên nhóm</h2>
+      <h2 className="section-title">Người thực hiện</h2>
       <ul className="list">
         <li>Nguyen Phuc Thinh - N22DCCN182</li>
       </ul>
