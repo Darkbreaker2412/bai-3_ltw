@@ -16,9 +16,7 @@ export default function AboutUs() {
       <p>ReactJS, Vite, React Router, Axios, ASP.NET Core, Entity Framework Core.</p>
       <h2 className="section-title">Thành viên nhóm</h2>
       <ul className="list">
-        <li>Thành viên 1 – MSSV</li>
-        <li>Thành viên 2 – MSSV</li>
-        <li>Thành viên 3 – MSSV</li>
+        <li>Nguyen Phuc Thinh - N22DCCN182</li>
       </ul>
     </div>
   )
