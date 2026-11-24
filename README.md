@@ -6,17 +6,16 @@ frontend/   React + Vite + React Router + Axios (gồm cả giao diện bài 1)
 backend/    ASP.NET Core Web API + EF Core (SQLite) + JWT
 ```
 
+## Yêu cầu
+.NET SDK 8 trở lên, Node.js 18 trở lên
+
 ## Chạy backend
-```bash
 cd backend/HotelBooking.Api
-dotnet tool install --global dotnet-ef        # chỉ cần lần đầu
-dotnet restore
-dotnet ef migrations add InitialCreate        # tạo migration
-dotnet ef database update                     # tạo database
 dotnet run
-```
+
 API chạy tại http://localhost:5080 – Swagger: http://localhost:5080/swagger
-Tài khoản admin mặc định: `admin@stayeasy.vn` / `Admin@123`
+Database SQLite (hotelbooking.db) và tài khoản admin được tạo tự động ở lần chạy đầu.
+Tài khoản admin mặc định: admin@stayeasy.vn / Admin@123
 
 ## Chạy frontend
 ```bash
